@@ -1,6 +1,6 @@
 # City / address api for GAN Integrity backend code challenge
 
-This is a solution for the backend code challenge at GAN integrity. It's a small local api serving some address / city data.
+This is a solution for the [backend code challenge](https://github.com/gandevops/backend-code-challenge) at GAN integrity. It's a small local api serving some address / city data.
 
 ## Running the project
 
@@ -16,7 +16,7 @@ There is no persistent data layer, the solution simply keeps the address data in
 
 There are no tests.
 
-There's only one 'domain' illustrated is the city (routes, controller, service). It would probably be appropriate to create separate files for logic regarding areas &distance calculations.
+There's only one 'domain' illustrated is the city (routes, controller, service). It would probably be appropriate to create separate files for logic regarding areas & distance calculations.
 
 Response models are created in file, could have dedicated types / functions to instantiate these.
 
